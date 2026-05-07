@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Login Site</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Cookie Banner (Non-Deterministic Flow) -->
+  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+    <p>We use cookies to improve your experience.</p>
+    <button id="accept-cookies">Accept Cookies</button>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-brand">
+      <a href="/">DemoApp</a>
+    </div>
+    <!-- Burger menu (mobile only) -->
+    <button class="burger-menu" id="burger-menu" aria-label="Open menu" aria-expanded="false">
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+    </button>
+    <!-- Nav links -->
+    <ul class="nav-links" id="nav-links" role="menubar">
+      <li role="none"><a href="/" role="menuitem">Home</a></li>
+      <li role="none"><a href="/fruits.html" role="menuitem">Fruits</a></li>
+      <li role="none"><a href="/login.html" role="menuitem">Login</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to the Demo App</h1>
+      <p>This is a demo website for the Playwright Mastery Workshop.</p>
+      <p>Use the navigation to explore login, fruits, and more.</p>
+    </section>
+  </main>
+
+  <script src="/js/nav.js"></script>
+  <script src="/js/cookies.js"></script>
+</body>
+</html>

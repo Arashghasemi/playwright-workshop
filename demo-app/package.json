@@ -1,0 +1,11 @@
+{
+  "name": "demo-login-site",
+  "version": "1.0.0",
+  "description": "Demo app for Playwright workshop",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
